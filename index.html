@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href='css/normalize.css'>
+  <link rel="stylesheet" href='css/reset.css'> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./css/images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Todo app</title>
+
 </head>
+
 <body>
+  <div class="banner-con">
+    <div class="banner">
+      <div class="content">
+        <h1>TODO</h1>
+        <img src="./css/images/icon-sun.svg" alt="sun icon">
+      </div>
+      <div class="todo">
+        <form>
+          <input type="text" placeholder="Create A new todo..">
+        </form>
+        <div class="list">
+          <div class="todo-con">
+            <div class="todo-li">
+              <div class="check">
+                <img src="./css/images/icon-check.svg" alt=" icon check">
+              </div>
+              <p>Hello</p>
+              <button class="close"> <img src="./css/images/icon-cross.svg" alt="icon cross"></button>
+            </div>
 
-  Todo
+          </div>
 
-  <!-- Add dynamic number --> items left
+        </div>
+        <div class="info">
+          <p> 5 items left</p>
+          <div class="choice">
+            <p>All</p>
+            <p>Active</p>
+            <p>Completed</p>
+          </div>
+          <p>Clear completed</p>
+        </div>
+      </div>
+    </div>
 
-  All
-  Active 
+  </div>
+  <!-- Todo
+
+  Add dynamic number items left
+
+  <!-- All
+  Active
   Completed
 
   Clear Completed
@@ -29,8 +64,11 @@
   Drag and drop to reorder list
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> --> -->
+
+  <script src="main.js"></script>
 </body>
+
 </html>
