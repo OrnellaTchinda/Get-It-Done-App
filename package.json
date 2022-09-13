@@ -1,0 +1,30 @@
+{
+  "name": "todo-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js" //nodemon so that when I type npm start nodemon run my server for me
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrnellaTchinda/Get-It-Done-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrnellaTchinda/Get-It-Done-App/issues"
+  },
+  "homepage": "https://github.com/OrnellaTchinda/Get-It-Done-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
