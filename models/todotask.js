@@ -16,4 +16,4 @@ const todoTaskSchema = new mongoose.Schema({   //we create a schema
 })
 
 //We export our schema
-module.exports = mongoose.model('TodoTask', todoTaskSchema, 'Tasks') //Added to the database and the specific collection named Tasks
+module.exports = mongoose.model('TodoTask', todoTaskSchema, 'Tasks') //Added to the database and the specific collection named Tasks IT IS CASE SENSITIVE
