@@ -98,13 +98,15 @@ input {
     width: 100%;
     padding: 5px;
     border-radius: 5px;
-    height: 20px;
+    height: 2.5rem;
+    font-size: 1.4rem;
     font-family: 'Edu TAS Beginner', sans-serif;
 }
 
 textarea {
     display: block;
     padding: 2px;
+    font-size: 1.2rem;
     width: 100%;
     border-radius: 5px;
     font-family: 'Edu TAS Beginner', sans-serif;
@@ -174,7 +176,7 @@ ul {
 
 
 .todo-list-item-content {
-    font-size: .8rem;
+    font-size: 1.2rem;
     margin-left: 10px;
     margin-right: 10px;
 }
