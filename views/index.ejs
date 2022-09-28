@@ -14,6 +14,7 @@
     <!--ICONS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/todo-icon.png ">
 
     <!-- stylesheet link -->
     <link rel="stylesheet" href="style.css">
@@ -23,10 +24,10 @@
 <body>
     <section class="banner-con">
         <section class="banner">
-            <div class="content">
+            <!-- <div class="content">
                 <h1>TODO</h1>
-                <img src="/images/icon-sun.svg" alt="sun icon" id="toggle-btn">
-            </div>
+                <img src="/images/icon-sun.svg" alt="sun icon" class="light-icon" id="toggle-btn">
+            </div> -->
             <section class="todo-container">
                 <h2>To Do List</h2>
                 <section class=" todo">
@@ -35,7 +36,7 @@
                         <input type="text" name="title" value="title">
                         <textarea name="content" id="" cols=" 45" rows="6">Content</textarea>
                         <!--input can be resize and have more lines and resize it by default-->
-                        <button type="submit"> <span class="fas fa-plus">Add Text</span></button>
+                        <button type="submit"> <span class="fas fa-plus">Create A New Todo</span></button>
 
                     </form>
 
@@ -48,8 +49,8 @@
                                 <div class="todo-list-item-content">
                                     <%= data.content %>
                                 </div>
-                                <a href="/edit/<%=data._id %>" class="edit"> <span class="fas fa-edit"></span> </a>
-                                <a href="/remove/<%=data._id %>" class="remove"> <img src="/images/icon-cross.svg"
+                                <a href="/edit/<%=data._id %>" class="edit bin"> <span class="fas fa-edit"></span> </a>
+                                <a href="/remove/<%=data._id %>" class="remove close"> <img src="/images/icon-cross.svg"
                                         alt="icon cross"></span> </a>
                             </li>
                             <% }) %>

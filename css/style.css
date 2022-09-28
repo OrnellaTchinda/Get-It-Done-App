@@ -173,6 +173,24 @@ form ::placeholder {
     transform: scale(1);
 }
 
+/* DARK
+
+.dark.body {
+    transition: 0.9 all ease;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.dark .todo-container {
+    color: hsl(235, 19%, 35%);
+}
+
+.dark .light-icon {
+    font-weight: 800;
+}
+
+.dark .article-sub--heading {
+    font-weight: 700;
+} */
 
 /* <style>.attribution {
     font-size: 11px;
