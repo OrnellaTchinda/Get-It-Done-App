@@ -14,7 +14,7 @@ body {
 
 .banner-con {
     width: 100%;
-    height: 60vh;
+    height: 45vh;
 }
 
 .banner {
@@ -74,7 +74,8 @@ body {
     width: 37.5rem;
     margin-top: 2rem;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.1);
+    /* background: hsl(236, 9%, 61%); */
+    /* background: rgba(255, 255, 255, 0.1); */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -91,25 +92,32 @@ h2 {
     font-size: 2rem;
     letter-spacing: 3px;
     color: #fff;
+    font-family: 'Edu TAS Beginner', sans-serif;
 }
 
 input {
+    color: #fff;
     margin-bottom: 2px;
     width: 100%;
     padding: 5px;
     border-radius: 5px;
+    border: hsl(235, 24%, 19%);
     height: 2.5rem;
     font-size: 1.4rem;
     font-family: 'Edu TAS Beginner', sans-serif;
+    background: hsl(235, 24%, 19%);
 }
 
 textarea {
+    color: #fff;
     display: block;
     padding: 2px;
     font-size: 1.2rem;
     width: 100%;
     border-radius: 5px;
+    border: hsl(235, 24%, 19%);
     font-family: 'Edu TAS Beginner', sans-serif;
+    background: hsl(235, 24%, 19%);
 }
 
 .todo-header button {
